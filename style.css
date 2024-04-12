@@ -1,13 +1,23 @@
-.container {
+body {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: auto;
   flex-wrap: wrap;
   overflow: hidden;
-  gap: 1px;
+  background-color: #f9bf54;
+  width: 40%;
 }
 
 .square {
   display: inline-block;
-  background-color: green;
   flex: auto;
   width: 6%;
   height: 0;
